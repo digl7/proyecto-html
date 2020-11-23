@@ -1,0 +1,20 @@
+/* 
+    Clase del elemento UL dentro de NAV, centrado vertical y horizontalmente con 20px de padding izquierda y derecha,
+*/
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly   ;
+    padding: 0px;
+    align-items: center;
+
+}
+
+ul{
+    display: inline;
+    list-style: none;
+}
+
+.logo {
+    border: 1px solid red;
+}
