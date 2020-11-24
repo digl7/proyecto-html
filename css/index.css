@@ -1,20 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* 
+    font-family: 'Roboto', sans-serif;
+*/
+:root{
+    --main-bg-color: #181B1D;
+    --main-color-yellow: #F9BC50; 
+}
+body{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+ul, ol{
+    padding-inline-start: 0px;
+}
+
 /* 
     Clase del elemento UL dentro de NAV, centrado vertical y horizontalmente con 20px de padding izquierda y derecha,
 */
 .nav-bar{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly   ;
-    padding: 0px;
+    justify-content: space-around;
+    padding:  5px 0px;
     align-items: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
 
+
+.main-nav{
+    background-color: var(--main-bg-color);
+}
+
+.main-amarillo{
+    color: var(--main-color-yellow);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 ul{
     display: inline;
-    list-style: none;
+    border-bottom: 1px solid black;
 }
 
-.logo {
+select {
+    margin: 20px;
+    width: 160px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;}
+
+.ordenar{
+    padding: 0px 20px;
     border: 1px solid red;
 }
+.article-tarjeta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+.banner-fav{
+    position: absolute;
+    
+    top: -100px;
+    border: 1px solid red;
+}
+    

@@ -8,37 +8,61 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="main-nav">
             <ul class="nav-bar">
                 <li class="logo"><a href="index.html"><img src="img/Logo.png" alt="Logo"></a></li>
                 <li><a href="buscar-pelicula.html">BUSCAR</a></li>
                 <li><a href="">FILTRAR</a></li>
                 <li><a href="">SOBRE NOSOTROS</a></li>
                 <li><a href="lista-peliculas-usuarios.html">MI LISTA</a></li>
-                <li><a href="login.html">INICIAR SESIÓN</a></li>
+                <li><span class="main-amarillo"><a href="login.html">INICIAR SESIÓN</a></span></li>
             </ul>
             <ul> 
-                Ordenar por: <select name="ordenar" id="ordenar">
-                    <option value="ordenar-por">Ordenar por:</option>
-                    <option value="ordenar">Popularidad</option>
-                    <option value="ordenar">Rating</option>
-                    <option value="ordenar">Orden alfabetico</option>
-                </select>
+                <div class="ordenar">
+                    Ordenar por: 
+                    <select name="ordenar" id="ordenar">
+                        <option value="ordenar-por">Ordenar por:</option>
+                        <option value="ordenar">Popularidad</option>
+                        <option value="ordenar">Rating</option>
+                        <option value="ordenar">Orden alfabetico</option>
+                    </select>
+                </div>
             </ul>
         </nav>
     </header>
     <main>
         <section>
-            <article>
+            <article class="article-tarjeta">
                 <div class="tarjeta-pelicula">
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/1.jpg" alt="Pelicula número 1">
                     </a>
+                    <img clas="banner-fav" src="img/banner-amarillo.png" height="30" alt="Banner inactivo">
+                </div>
+                <div class="tarjeta-pelicula">
+                    <a href="pelicula-info.html">
+                        <img src="img/peliculas/2.jpg" height="272" alt="Pelicula número 1">
+                    </a>
                     <img src="img/banner-amarillo.png" height="30" alt="Banner inactivo">
                 </div>
-                </article>
-
-            <article>
+                <div class="tarjeta-pelicula">
+                    <a href="pelicula-info.html">
+                        <img src="img/peliculas/1.jpg" alt="Pelicula número 1">
+                    </a>
+                    <img clas="banner-fav" src="img/banner-amarillo.png" height="30" alt="Banner inactivo">
+                </div>
+                <div class="tarjeta-pelicula">
+                    <a href="pelicula-info.html">
+                        <img src="img/peliculas/2.jpg" height="272" alt="Pelicula número 1">
+                    </a>
+                    <img src="img/banner-amarillo.png" height="30" alt="Banner inactivo">
+                </div>
+                <div class="tarjeta-pelicula">
+                    <a href="pelicula-info.html">
+                        <img src="img/peliculas/1.jpg" alt="Pelicula número 1">
+                    </a>
+                    <img clas="banner-fav" src="img/banner-amarillo.png" height="30" alt="Banner inactivo">
+                </div>
                 <div class="tarjeta-pelicula">
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/2.jpg" height="272" alt="Pelicula número 1">
