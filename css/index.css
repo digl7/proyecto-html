@@ -13,6 +13,7 @@ body{
 }
 li{
     list-style: none;
+    border: 1px solid red;
 }
 
 ul, ol{
@@ -52,31 +53,43 @@ ul{
     border-bottom: 1px solid black;
 }
 
-select {
+select, option {
     margin: 20px;
     width: 160px;
     padding: 5px 35px 5px 5px;
     font-size: 16px;
-    border: 1px solid #ccc;
     height: 34px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;}
+    color: white;
+    background-color: var(--main-bg-color);
+    border-style: none;
+}
+
+select:hover {
+    background-color: gray;
+    transition: 0.5s all;
+    border: var(--main-bg-color);
+}
+
 
 .ordenar{
-    padding: 0px 20px;
-    border: 1px solid red;
+    padding: 0px 80px;
+    border-bottom: 1px solid black;
 }
-.article-tarjeta{
+.tarjetas{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid white;
+    padding: 15px;
+    margin-left: 19px;
+    margin-right: 44px;
 }
 .banner-fav{
-    position: absolute;
-    
-    top: -100px;
-    border: 1px solid red;
+    position: relative;
+    right: 39px;
+    top: 20px;
+    height: 42px;
 }
-    
+
+.tarjeta-pelicula{
+    border: 1px solid white;
+}
