@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/login.css">
     <script src="/js/script.js"></script>
-    <title>Cartelera</title>
+    <title>Registro</title>
 </head>
 <body>
     <header>
@@ -40,26 +40,32 @@
         </div>
         <div class="contenedor-2">
             <div class="texto-in">
-                <h1>INICIAR SESION</h1>
+                <h1>Regístrate</h1>
                 <form action="">
                     <label for="usuario-email"></label>
                     Usuario/email:
-                    <input name="usuario-email" type="text">
+                    <input name="usuario-email" type="text" placeholder="usuario / email" required>
 
                     <label for="contraseña"></label>
                     Contraseña:
-                    <input name="contraseña" type="text">
+                    <input name="contraseña" type="text" placeholder="contraseña" required>
+
+                    <label for="rep-contraseña"></label>
+                    Repetir contraseña:
+                    <input name="rep-contraseña" type="text" placeholder="contraseña" required>
 
                     <label for="recuerdame"></label>
-                   <p> <input type="checkbox"> recuerdame </p>
+                    <div class="recuerda"><input type="checkbox"> Acepto las condiciones de uso</div>
+
+                    <p>¿Ya tienes cuenta? <a href="login.html"> <span class="logueate">Inicia sesión.</span></a> </p>
 
                     <button class="btn-login">ACCEDER</button>
 
                     <div class="login-google-twitter">
-                        Acceder con:
-                        <a href="google.es"> <img src="" alt="Google"> </a>
-                        <a href="twitter.es"> <img src="" alt="Twitter"> </a>
-                        <a href="facebook.es"> <img src="" alt="Facebook"> </a>
+                        <p> Acceder con: </p>
+                        <a href="google.es"> <i class="fab fa-google icono"></i> </a>
+                        <a href="twitter.es"> <i class="fab fa-twitter icono"></i> </a>
+                        <a href="facebook.es"> <i class="fab fa-facebook icono"></i> </a>
                     </div>
                 </form>
             </div>

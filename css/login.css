@@ -67,9 +67,12 @@ form {
     flex-direction: column;
 }
 
-input{
+input[type=text]{
     margin-left: 25%;
     width: 50%;
+    margin: 1% 25%;
+    height: 2em;
+    
 }
 
 button{
@@ -104,6 +107,18 @@ button:hover {
     font-size: 1.5em;
 }
 
-.recuerdame {
-    display: flex;
+.recuerda {
+    margin-top: 1em
 }
+
+.logueate{
+    color: var(--main-color-yellow);
+    font-weight: 700;
+}
+
+/* .config-login{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+} */
