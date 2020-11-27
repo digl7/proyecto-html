@@ -7,6 +7,8 @@
     --main-color-yellow: #F9BC50; 
 }
 
+
+
 body{
     background-color: var(--main-bg-color);
     color: white;
@@ -15,6 +17,8 @@ body{
 li{
     list-style: none;
 }
+
+
 
 ul, ol{
     padding-inline-start: 0px;
@@ -49,6 +53,7 @@ a{
 
 ul{
     display: inline;
+    box-shadow: 11px 10px 30px -2px rgba(0,0,0,0.75);
 }
 
 select, option {

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="/js/script.js"></script>
+    <title>Cartelera</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul class="nav-bar">
+                <li><a href="index.html"><img height="90px" src="img/Logo.png" alt="Logo"></a></li>
+                <li><a href="buscar-pelicula.html">BUSCAR</a></li>
+                <li><a href="">FILTRAR</a></li>
+                <li><a href="">SOBRE NOSOTROS</a></li>
+                <li><a href="lista-peliculas-usuarios.html">MI LISTA</a></li>
+                <li><a class="main-amarillo" href="login.html">INICIAR SESIÓN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-1">
+            <div class="login">
+                <h2>Iniciar sesión</h2>
+                <a href="login.html"><i class="fas fa-user"></i></a> 
+            </div>
+
+            <div class="registro">
+                <h2>Regístrate</h2>
+                <a href="registro.html"><i class="fas fa-sign-in-alt"></i></a>
+            </div>
+
+            <div class="contrasena">
+                <h2>Recuperar contraseña</h2>
+                <a href="recuperar-contraseña.html"><i class="fas fa-lock"></i></a>
+            </div>
+        </div>
+        <div class="contenedor-2">
+            <div class="texto-in">
+                <h1>INICIAR SESION</h1>
+                <form action="">
+                    <label for="usuario-email"></label>
+                    Usuario/email:
+                    <input name="usuario-email" type="text">
+
+                    <label for="contraseña"></label>
+                    Contraseña:
+                    <input name="contraseña" type="text">
+
+                    <label for="recuerdame"></label>
+                   <p> <input type="checkbox"> recuerdame </p>
+
+                    <button class="btn-login">ACCEDER</button>
+
+                    <div class="login-google-twitter">
+                        Acceder con:
+                        <a href="google.es"> <img src="" alt="Google"> </a>
+                        <a href="twitter.es"> <img src="" alt="Twitter"> </a>
+                        <a href="facebook.es"> <img src="" alt="Facebook"> </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script defer src="https://kit.fontawesome.com/be6ef001a7.js" crossorigin="anonymous"></script>
+</html>
