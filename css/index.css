@@ -8,11 +8,23 @@
 }
 
 
+header { 
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    z-index: 1; /* pongo por encima el header */
+    background-color: var(--main-bg-color);
+    
 
+}
 body{
     background-color: var(--main-bg-color);
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
+    z-index: 0;
+    margin-top: 13.5em;
 }
 li{
     list-style: none;
@@ -22,16 +34,15 @@ li{
 
 ul, ol{
     padding-inline-start: 0px;
+    box-shadow: 11px 10px 30px -2px rgba(0,0,0,0.75);
+
 }
 
-/* 
-    Clase del elemento UL dentro de NAV, centrado vertical y horizontalmente con 20px de padding izquierda y derecha,
-*/
 .nav-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:  5px 20px;
+    padding:  10px 80px 10px 40px;
     align-items: center;
     font-weight: 700;
     letter-spacing: 4.3px;
@@ -42,10 +53,6 @@ ul, ol{
     font-weight: bold;
 }
 
-.amarillo{
-    color: var(--main-color-yellow);
-}
-
 a{
     text-decoration: none;
     color: inherit;
@@ -53,7 +60,6 @@ a{
 
 ul{
     display: inline;
-    box-shadow: 11px 10px 30px -2px rgba(0,0,0,0.75);
 }
 
 select, option {
@@ -64,30 +70,33 @@ select, option {
     color: white;
     background-color: var(--main-bg-color);
     border-style: none;
+    margin: 0px 30px;
 }
 
 select:hover {
     background-color: gray;
     transition: 0.5s all;
-    border: var(--main-bg-color);
+    border: none;
 }
 
 .ordenar{
-    padding: 15px 20px;
-    margin: 0 20px;
+    padding: 15px 35px;
     box-shadow: 11px 10px 30px -2px rgba(0,0,0,0.75);
 
 }
+
+/*Contenedor de todas las tarjetas*/
 .tarjetas{
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 15px 20px;
     flex-wrap: wrap;
   
 }
-/* Banner en gris */ 
+
+/* Bookmark en gris */ 
 .banner-fav{
     position: absolute;
     height: 27px;
@@ -95,11 +104,11 @@ select:hover {
     font-size: 34px;
     color: #707070;
     bottom: -10px;
-    right: 5px;   
+    right: 10px;   
     cursor: pointer; 
 }
 
-/* Banner en amarillo */ 
+/* Bookmark en amarillo */ 
 .amarillo{
     position: absolute;
     height: 27px;
@@ -107,19 +116,21 @@ select:hover {
     font-size: 34px;
     color: var(--main-color-yellow);
     bottom: -10px;
-    right: 5px;   
+    right: 10px;   
     cursor: pointer; 
  
 }
-
+/* Contenedor de la imagen y icono de bookmark*/
 .tarjeta-pelicula{
     position: relative;
     height: 290px;
-    margin: 15px 0;
+    width: 200px;
+    margin: 15px 1em;
     
 
 }
 
+/* El poster de la foto (imagen)*/
 .peli-foto {
     height: 100%;
     border-radius: 6px 6px 6px 6px;
