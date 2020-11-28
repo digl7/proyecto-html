@@ -2,10 +2,6 @@
     --main-bg-color: #181B1D;
     --main-color-yellow: #F9BC50; 
 }
-*{
-    font-family: 'Roboto', sans-serif;
-
-}
 main {
     display: flex;  
     margin: 5% auto;
@@ -22,6 +18,7 @@ main {
     color: black;    
     align-items: center;
     justify-content: center;
+    
 }
 
 .contenedor-2{
@@ -29,19 +26,13 @@ main {
     display: flex;
 }
 
-.login {
+.login, .registro, .contrasena {
     border: 1px solid black;
     height: 33%;
-}
-
-.registro {
-    border: 1px solid black;
-    height: 33%;
-}
-
-.contrasena {
-    border: 1px solid black;  
-    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .texto-in{
@@ -56,7 +47,10 @@ h1 {
 
 h2{
     font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
+
 
 
 form {
@@ -65,15 +59,19 @@ form {
     flex-direction: column;
 }
 
-input[type=text]{
+input[type=text], input[type=email]{
     margin-left: 25%;
     width: 50%;
     margin: 1% 25%;
-    height: 2em;
+    height: 2.5em;
     
 }
 
-button{
+input:focus{
+    outline: none;
+}
+
+.btn-login, button{
     height: 7vh;
     width: 50%;
     margin: 2% 26%;
@@ -81,8 +79,9 @@ button{
     border: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: large;
+    font-size: 1.5em;
     cursor: pointer;
+    letter-spacing: 3px;
 }
 
 button:hover {
@@ -109,14 +108,7 @@ button:hover {
     margin-top: 1em
 }
 
-.logueate{
+.recuperar, .logueate{
     color: var(--main-color-yellow);
     font-weight: 700;
 }
-
-/* .config-login{
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-} */
