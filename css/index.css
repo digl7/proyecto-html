@@ -7,6 +7,9 @@
     --main-color-yellow: #F9BC50; 
 }
 
+nav ul li{
+    font-size: 1.5em;
+}
 
 header { 
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
@@ -18,6 +21,7 @@ header {
     
 
 }
+
 body{
     background-color: var(--main-bg-color);
     color: white;
