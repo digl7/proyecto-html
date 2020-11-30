@@ -15,8 +15,24 @@ html{
     font-family: 'Roboto', sans-serif;
 
 }
-h2{
+input, input:focus{
+    border:none;
+    background-image:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    color: var(--main-color-yellow);
+
+}
+.busqueda{
     color:gray;
+    width: 100%;
+    padding: 3% 0;
+    background-color: rgba(68, 68, 68, 0.651);
+    text-align: center;
+    margin-right: 30000px;
+    font-size: 50px;
 }
 
 .contenido{
@@ -55,7 +71,6 @@ h2{
 }
 
 .barra-busqueda{
-    background-color: rgba(56, 56, 56,0.4);
     width: 100%;
     padding: 1em;
 }
