@@ -8,13 +8,20 @@
     <title>Cartelera</title>
 </head>
 <body>
+    <!-- Puedes dar clic en la segunda pelicula (Edge of Tomorrow), 
+        se debería de abrir un MODAL con la información de la película, 
+        pero lo he creado como otra página diferente-->
+
+
+        <!-- Si das clic en la bandera gris, se debería de poner de color amarillo y abrirse otro MODAL que te permita:
+            Crear una lista o guardar esa pelicula que has seleccionado en una lista ya creada. -->
     <header class="sticky">
         <nav class="main-nav">
             <ul class="nav-bar">
                 <li><a href="index.html"><img height="90px" src="img/Logo.png" alt="Logo"></a></li>
                 <li><a href="buscar-pelicula.html">BUSCAR</a></li>
-                <li><a href="">FILTRAR</a></li>
-                <li><a href="">SOBRE NOSOTROS</a></li>
+                <li><a href="#">FILTRAR</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
                 <li><a href="lista-peliculas-usuarios.html">MI LISTA</a></li>
                 <li><a class="main-amarillo" href="login.html">INICIAR SESIÓN</a></li>
             </ul>
@@ -34,13 +41,16 @@
         <section>
             <article class="tarjetas">
                 <div class="tarjeta-pelicula">
+                    <a href="pelicula-info.html">
                         <img src="img/peliculas/1.jpg" class="peli-foto" alt="Pelicula número 1"> 
-                    <i class="fas fa-bookmark banner-fav"></i>
+                    </a>
+                    <i class="fas fa-bookmark banner-fav">
+                    </i>
                 </div>
 
                 <div class="tarjeta-pelicula">
                     <a href="pelicula-info.html">
-                        <img src="img/peliculas/2.jpg" class="peli-foto" alt="Pelicula número 1">
+                        <img src="img/peliculas/3.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
                     <i class="amarillo fas fa-bookmark"></i>
 
@@ -48,7 +58,7 @@
 
                 <div class="tarjeta-pelicula">
                     <a href="pelicula-info.html">
-                        <img src="img/peliculas/3.jpg" class="peli-foto" alt="Pelicula número 1">
+                        <img src="img/peliculas/2.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
                     <i class="fas fa-bookmark banner-fav"></i>
                 </div>

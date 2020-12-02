@@ -9,6 +9,9 @@
     <title>Cartelera</title>
 </head>
 <body>
+    <!-- La barra horizontal está para poder moverse entre las películas y poder visualizarlas todas. Tengo los botones a los lados, 
+        pero no he tenido tiempo para investigar como hacer que funcionen (imagino que con javascript) y poder quitar la barra horizontal de movimiento.
+        -->
     <header class="sticky">
         <nav class="main-nav">
             <ul class="nav-bar">
@@ -21,6 +24,7 @@
             </ul>
             <ul> 
                 <div class="lista">
+                    <!-- Anclas para poder acceder a las listsa creadas mas fácilmente. -->
                     <li><a href="nueva-lista.html">CREAR LISTA</a></li>
                     <li><a href="#LISTA1">LISTA 1</a></li>
                     <li><a href="#LISTA2">LISTA 2</a></li>
@@ -32,7 +36,57 @@
     </header>
     <div class="peliculas-recomendadas contenedor">
         <div class="contenedor-titulo-controles">
-            <h3>Lista 1</h3>
+            <h3 id="LISTA1">Lista 1</h3>
+            <div class="indicadores"></div>
+        </div>
+        <div class="contenedor-principal">
+            <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+            <div class="contenedor-carousel">
+                <div class="carousel">
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/1.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/2.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/3.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/6.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/4.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/5.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/6.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/7.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/8.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/10.jpg" alt=""></a>
+                    </div>
+                    <div class="pelicula">
+                        <a href="#"><img src="img/peliculas/1.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+        </div>
+    </div>
+
+    <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+            <h3 id="LISTA2">Lista 2</h3>
             <div class="indicadores"></div>
         </div>
         <div class="contenedor-principal">

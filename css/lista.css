@@ -17,6 +17,8 @@
     color: var(--main-color-yellow);  
 }
 
+
+
 .contenedor-titulo-controles {
 	display: flex;
 	justify-content: space-between;
@@ -43,7 +45,6 @@
 }
 
 
-/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
 .peliculas-recomendadas {
 	margin-bottom: 70px;
 }
@@ -83,7 +84,6 @@
 	right: 0;
 }
 
-/* ---- ----- ----- Carousel ----- ----- ----- */
 .peliculas-recomendadas .contenedor-carousel {
 	width: 100%;
 	padding: 20px 0;
