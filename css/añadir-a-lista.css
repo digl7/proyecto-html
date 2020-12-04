@@ -71,6 +71,7 @@ input, input:focus{
 
 .fa-times{
     font-size: 4em;
+    cursor: pointer;
 }
 
 .barra-busqueda{
