@@ -3,3 +3,16 @@ function colorAmarillo(){
 
 }
 
+
+function Light() {
+    document.body.style.background = "white";
+    document.getElementById('main-nav').style.background ="white";
+    document.getElementById('main-nav').style.color ="#181B1D";
+  }
+
+  
+function Dark() {
+    document.body.style.background = "#181B1D";
+    document.getElementById('main-nav').style.background ="#181B1D";
+    document.getElementById('main-nav').style.color ="white";
+  }
