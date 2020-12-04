@@ -38,7 +38,7 @@ li{
 
 ul, ol{
     padding-inline-start: 0px;
-    box-shadow: 11px 10px 30px -2px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 15px -2px rgba(0,0,0,0.75);
 
 }
 
@@ -147,49 +147,19 @@ select:hover {
     text-align: center;
     transition-duration: 0.4s;
     text-decoration: none;
-    overflow: hidden;
     cursor: pointer;
-    padding: 1em;
-
 }
-
-.light-button::after{
-    background: var(--main-color-yellow);
-}
-.dark-button::after{
-    background: white;
-}
-
-.button-theme:focus {outline:0;}
-
-.button-theme::after{
-    content: "";
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px !important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 1.3s
-}
-
-.button-theme:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
 
 .light-button{
-    background-color: white;
     color: white;
-    border: none;
-    
+    border: none;   
+}
+
+.fa-moon{
+    color: white;
 }
 
 .dark-button{
-    background-color: var(--main-bg-color);
     color: var(--main-bg-color);
     border: none;
 
