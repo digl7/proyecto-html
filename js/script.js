@@ -10,8 +10,7 @@ function Light() {
     document.getElementById('main-nav').style.color ="#181B1D";
     document.getElementById('ordenar').style.background ="white";
     document.getElementById('ordenar').style.color ="#181B1D";
-
-  }
+}
 
   
 function Dark() {
@@ -20,6 +19,13 @@ function Dark() {
     document.getElementById('main-nav').style.color ="white";
     document.getElementById('ordenar').style.background ="#181B1D";
     document.getElementById('ordenar').style.color ="white";
+}
 
-
+function menu() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
+}

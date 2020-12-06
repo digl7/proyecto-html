@@ -164,3 +164,84 @@ select:hover {
     border: none;
 
 } 
+      /* Hide the links inside the navigation menu (except for logo/home) */
+#myLinks{
+    display: none;
+}
+
+.icon{
+    font-size: 30px;
+    z-index: 0;
+    display: none;
+}
+  
+
+@media (max-width: 1131px) {
+    nav ul li{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 1054px) {
+    nav ul li{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 958px) {
+    nav ul li{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 958px) {
+    nav ul li{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 852px) {
+    .nav-bar .esconder, .esconder1{
+        display: none;
+    }
+
+    .nav-nar {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    
+    /* Style navigation menu links */
+    .nav-bar a {
+    display: list-item;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .nav-bar .icon {
+    background: black;
+    display: contents;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+    background-color: #4CAF50;
+    color: white;
+    }
+    #myLinks .aparecer{
+        display: block;
+    }
+}
