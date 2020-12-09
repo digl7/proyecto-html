@@ -48,8 +48,8 @@ a, h1{
 
 }
 .izquierda{
-    width: 30%;
-    margin-right: 2em;
+    width: 50%;
+    margin-right: 1em;
 
 }
 
@@ -65,9 +65,7 @@ a, h1{
 }
 
 .derecha{
-    margin-left: 15px;
     position: relative;
-    width: 700%;
 }
 
 .flecha-titulo{
@@ -85,4 +83,33 @@ a, h1{
 
 footer{
     margin: 10px;
+}
+
+
+@media only screen and (max-width: 1389px) {
+    .flecha-titulo{
+        font-size: 1em;
+    }
+    .flecha-titulo h1{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 966px) {
+    .body-contenedor{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .contenido{
+        padding-bottom: 0px;
+    }
+    .flecha-titulo{
+        font-size: 1em;
+    }
+    .flecha-titulo h1{
+        margin: 0;
+    }
+    .abajo{
+        position: relative;
+    }
 }

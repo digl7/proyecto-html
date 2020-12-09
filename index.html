@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html id="all" lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js"></script>
     <title>Cartelera</title>
 </head>
 <body>
@@ -15,15 +15,27 @@
 
         <!-- Si das clic en la bandera gris, se debería de poner de color amarillo y abrirse otro MODAL que te permita:
             Crear una lista o guardar esa pelicula que has seleccionado en una lista ya creada. -->
-    <header class="sticky">
-        <nav class="main-nav">
+    <header class="sticky" id="main-nav">
+        <nav class="main-nav" >
             <ul class="nav-bar">
+                
                 <li><a href="index.html"><img height="90px" src="img/Logo.png" alt="Logo"></a></li>
-                <li><a href="buscar-pelicula.html">BUSCAR</a></li>
-                <li><a href="#">FILTRAR</a></li>
-                <li><a href="#">SOBRE NOSOTROS</a></li>
-                <li><a href="lista-peliculas-usuarios.html">MI LISTA</a></li>
-                <li><a class="main-amarillo" href="login.html">INICIAR SESIÓN</a></li>
+                <li class="esconder1"><a href="#">BUSCAR</a></li>
+                <li class="esconder1"><a href="#">FILTRAR</a></li>
+                <li class="esconder1"><a href="#">SOBRE NOSOTROS</a></li>
+                <li class="esconder1"><a href="lista-peliculas-usuarios.html">MI LISTA</a></li>
+                <li class="esconder1"><a class="main-amarillo" href="login.html">INICIAR SESIÓN</a></li>
+
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <li class="esconder aparecer"><a href="lista-peliculas-usuarios.html">MI LISTA</a></li>
+                    <li class="esconder aparecer" ><a class="main-amarillo" style="color: #F9BC50;" href="login.html">INICIAR SESIÓN</a></li>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="menu()">
+                  <i class="fa fa-bars"></i>
+                </a>
+
             </ul>
             <ul> 
                 <div class="ordenar">
@@ -33,6 +45,8 @@
                         <option value="ordenar">Rating</option>
                         <option value="ordenar">Orden alfabetico</option>
                     </select>
+                    <i onclick="Light()" class="light-button button-theme fas fa-moon"></i>
+                    <i onclick="Dark()" class="dark-button button-theme fas fa-moon"></i>
                 </div>
             </ul>
         </nav>
@@ -44,15 +58,15 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/1.jpg" class="peli-foto" alt="Pelicula número 1"> 
                     </a>
-                    <i class="fas fa-bookmark banner-fav">
-                    </i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
+
                 </div>
 
                 <div class="tarjeta-pelicula">
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/3.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="amarillo fas fa-bookmark"></i>
+                    <a href="añadir-a-lista.html"><i class="amarillo fas fa-bookmark"></i></a>
 
                 </div>
 
@@ -60,14 +74,14 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/2.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
                 </div>
 
                 <div class="tarjeta-pelicula">
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/4.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="fas fa-bookmark banner-fav amarillo"></i>
+                    <a href="añadir-a-lista.html"><i class="amarillo fas fa-bookmark"></i></a>
 
                 </div>
 
@@ -75,7 +89,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/5.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -91,7 +105,7 @@
                     <a href="pelicula-info.html"> 
                         <img src="img/peliculas/7.jpg" class="peli-foto" alt="Pelicula número 1"> 
                     </a>
-                    <i class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -107,7 +121,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/9.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i  class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
                 </div>
 
                 <div class="tarjeta-pelicula">
@@ -122,7 +136,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/3.jpg" class="peli-foto" alt="Pelicula número 11">
                     </a>
-                    <i  class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -139,7 +153,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/8.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="amarillo fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -154,7 +168,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/10.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="amarillo fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -170,7 +184,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/2.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i  class="amarillo fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -187,7 +201,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/9.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i  class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
                 </div>
 
                 <div class="tarjeta-pelicula">
@@ -202,7 +216,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/3.jpg" class="peli-foto" alt="Pelicula número 11">
                     </a>
-                    <i  class="fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -219,7 +233,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/8.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="amarillo fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -234,7 +248,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/10.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i class="amarillo fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
@@ -250,7 +264,7 @@
                     <a href="pelicula-info.html">
                         <img src="img/peliculas/2.jpg" class="peli-foto" alt="Pelicula número 1">
                     </a>
-                    <i  class="amarillo fas fa-bookmark banner-fav"></i>
+                    <a href="añadir-a-lista.html"><i class="fas fa-bookmark banner-fav"></i></a>
 
                 </div>
 
