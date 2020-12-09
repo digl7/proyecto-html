@@ -4,22 +4,13 @@ function colorAmarillo(){
 }
 
 
-function Light() {
-    document.body.style.background = "white";
-    document.getElementById('main-nav').style.background ="white";
-    document.getElementById('main-nav').style.color ="#181B1D";
-    document.getElementById('ordenar').style.background ="white";
-    document.getElementById('ordenar').style.color ="#181B1D";
-}
+function darkmode() {
+  var cuerpo = document.body;
+  var header = document.getElementById('main-nav')
+  cuerpo.classList.toggle("darkmode");
+  header.classList.toggle("darkmode");
 
-function Dark() {
-    document.body.style.background = "#181B1D";
-    document.getElementById('main-nav').style.background ="#181B1D";
-    document.getElementById('main-nav').style.color ="white";
-    document.getElementById('ordenar').style.background ="#181B1D";
-    document.getElementById('ordenar').style.color ="white";
 }
-
 
 
 

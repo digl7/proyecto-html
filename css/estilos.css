@@ -56,6 +56,10 @@ ul, ol{
     color: var(--main-color-yellow);
     font-weight: bold;
 }
+.darkmode{
+    background-color: white;;
+    color: var(--main-bg-color);
+}
 
 a{
     text-decoration: none;
@@ -155,9 +159,6 @@ select:hover {
     border: none;   
 }
 
-.fa-moon{
-    color: white;
-}
 
 .dark-button{
     color: var(--main-bg-color);
@@ -248,3 +249,7 @@ select:hover {
     }
 
 } 
+
+.fa-moon{
+    color: #F9BC50 ;
+}
