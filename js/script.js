@@ -12,7 +12,6 @@ function Light() {
     document.getElementById('ordenar').style.color ="#181B1D";
 }
 
-  
 function Dark() {
     document.body.style.background = "#181B1D";
     document.getElementById('main-nav').style.background ="#181B1D";
@@ -20,6 +19,9 @@ function Dark() {
     document.getElementById('ordenar').style.background ="#181B1D";
     document.getElementById('ordenar').style.color ="white";
 }
+
+
+
 
 function menu() {
   var x = document.getElementById("myLinks"); 
