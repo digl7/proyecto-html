@@ -30,11 +30,10 @@ body{
     z-index: 0;
     margin-top: 13.5em;
 }
+
 li{
     list-style: none;
 }
-
-
 
 ul, ol{
     padding-inline-start: 0px;
@@ -56,8 +55,9 @@ ul, ol{
     color: var(--main-color-yellow);
     font-weight: bold;
 }
+
 .darkmode{
-    background-color: white;;
+    background-color: white;
     color: var(--main-bg-color);
 }
 
@@ -106,7 +106,7 @@ select:hover {
 
 /* Bookmark en gris */ 
 .banner-fav{
-    position: absolute;
+    position: absolute; 
     height: 27px;
     width: 29px;
     font-size: 34px;
@@ -134,8 +134,6 @@ select:hover {
     height: 290px;
     width: 200px;
     margin: 15px 1em;
-    
-
 }
 
 /* El poster de la foto (imagen)*/
