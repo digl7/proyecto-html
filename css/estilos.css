@@ -18,6 +18,16 @@ nav ul li{
     margin: 1em auto;
 }
 
+.slider{
+    position: relative;
+    justify-content: center;
+
+}
+.p-slider{
+    position: absolute;
+    color: var(--main-color-yellow);
+}
+
 header { 
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
