@@ -111,8 +111,19 @@ h3 {
     color: var(--main-color-yellow);
     font-size: 40px;
 }
-  
+.video-centrado{
+    margin-top: 15em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
+.audio-centrado{
+    margin-top: 1em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 @media (max-width: 1131px) {
     nav ul li{
         font-size: 1.3em;
