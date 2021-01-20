@@ -66,7 +66,15 @@ input[type=text], input[type=email]{
     height: 2.5em;
     
 }
-
+input:focus{
+    transition: 0.4s;
+    border: 2px solid var(--main-color-yellow);
+    background-color: var(--main-color-yellow);
+    color: black;
+}
+::placeholder{
+    color: rgb(80, 71, 71);
+}
 input:focus{
     outline: none;
 }
@@ -85,7 +93,11 @@ input:focus{
 }
 
 button:hover {
-    background-color: #faad28;
+    background-color: #fda50b;
+    font-size: 31px;
+    transition: 1s;
+
+
 }
 
 .icono {
@@ -95,7 +107,9 @@ button:hover {
 }
 
 .icono:hover{
-    color: var(--main-color-yellow);
+    color: #fda815;
+    transition: 0.4s;
+    font-size: 2.2em;
 
 }
 
@@ -111,4 +125,15 @@ button:hover {
 .recuperar, .logueate{
     color: var(--main-color-yellow);
     font-weight: 700;
+}
+
+.login:hover, .registro:hover, .contrasena:hover{
+    transition: 1s;
+    font-size: 20px;
+
+}
+
+.recuperar:hover{
+    transition: 0.4s;
+    font-size: 1.2em;
 }
