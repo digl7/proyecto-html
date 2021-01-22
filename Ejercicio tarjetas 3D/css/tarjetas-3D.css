@@ -11,8 +11,12 @@
 
 .explorador.descubierto{
   background-color: white;
-  animation: flip-vertical-right 0.4s cubic-bezier(0.770, 0.000, 0.175, 1.000) both;
+  animation: flip-vertical-right 0.4s cubic-bezier(0.770, 0.000, 0.175, 1.000) none;
 
+}
+
+.explorador.descubierto .explorador__imagen{
+  display: none;
 }
 
 .explorador__imagen{
@@ -28,6 +32,10 @@
   width: 100%;
   height: 100%;
   background-color: rgb(250, 250, 250);
+}
+
+.explorador.descubierto .explorador__contenido{
+  display: block;
 }
 
  
