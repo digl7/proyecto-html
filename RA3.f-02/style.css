@@ -1,0 +1,86 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+  background-color: #262626;
+}
+.contenedor{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #262626;
+    color: white;
+}
+.loading{
+    width: 300px;
+    height: 10px;
+    background-color: white;
+    animation: 
+    colorChange 2s linear 6 alternate both,
+    scale-out-hor-left 0s linear alternate infinite both;
+}
+
+@keyframes colorChange {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+        opacity: 1;
+        background: purple;
+    }
+    
+    33% {
+        transform: scaleX(1);
+        transform-origin: left;
+        opacity: 1;
+        background:red;
+    }
+    66% {
+        transform: scaleX(1);
+        transform-origin: right;
+        opacity: 1;
+        background: green;
+    }
+    100% {
+        transform: scaleX(0);
+        transform-origin: right;
+        opacity: 1;
+        background: yellow;
+    }
+}
+
+.background {
+    height:100vh;
+    position: relative;
+	background: url(img/bg.jpg);
+    background-position: bottom left;
+    animation-delay: 11s;
+}
+
+.car {
+	position: absolute;
+	left: 300px;
+	bottom: -50px;
+    width: 200px;
+    animation-delay: 12s;
+}
+
+.motorbike {
+	position: absolute;
+	left: 700px;
+	bottom: 55px;
+    width: 150px;
+    animation-delay: 12s;
+    animation: moverBackground duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes moverBackground {
+    0%{
+        
+    }
+    
+}
