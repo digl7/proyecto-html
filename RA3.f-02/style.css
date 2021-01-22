@@ -58,8 +58,9 @@ body{
     position: relative;
 	background: url(img/bg.jpg);
     background-position: bottom left;
-    /*animation-delay: 11s;*/
-    animation: moverBackground 0.5s linear backwards;
+    animation: fondo 0.5s 18s linear both,
+    bannermove 3s linear infinite;
+
 }
 
 .car {
@@ -67,8 +68,8 @@ body{
 	left: 300px;
 	bottom: -50px;
     width: 200px;
-    /*animation-delay: 12s;*/
-    animation: moverBackground 0.5s linear backwards;
+    animation: coche 0.5s linear both,
+    carmove 1.5s 1s linear infinite;
 }
 
 .motorbike {
@@ -76,19 +77,68 @@ body{
 	left: 700px;
 	bottom: 55px;
     width: 150px;
-    /*animation-delay: 12s;*/
-    animation: moverBackground 0.5s linear backwards;
+    animation: moto 0.5s linear both,
+    motomove 3s linear infinite;
 }
 
-@keyframes moverBackground {
+@keyframes fondo {
     0% {
-        transform: translateY(1000px) translateX(1000px);
+        transform: translateY(0);
         opacity: 1;
       }
       100% {
-        transform: translateY(0) translateX(0);
+        transform: translateY(-100%);
         opacity: 1;
       }
+}
+
+@keyframes coche {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(1%);
+        opacity: 1;
+      }
+}
+
+@keyframes moto {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-6%);
+        opacity: 1;
+      }
+}
+@keyframes bannermove {
+    0% {
+        margin-left: 0px;
     }
-    
+    100% {
+        margin-left: -5794px;
+    }
+
+}
+
+@keyframes carmove {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 5794px;
+    }
+
+}
+
+@keyframes motomove {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 5794px;
+    }
+
 }
