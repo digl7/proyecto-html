@@ -58,7 +58,8 @@ body{
     position: relative;
 	background: url(img/bg.jpg);
     background-position: bottom left;
-    animation-delay: 11s;
+    /*animation-delay: 11s;*/
+    animation: moverBackground 0.5s linear backwards;
 }
 
 .car {
@@ -66,7 +67,8 @@ body{
 	left: 300px;
 	bottom: -50px;
     width: 200px;
-    animation-delay: 12s;
+    /*animation-delay: 12s;*/
+    animation: moverBackground 0.5s linear backwards;
 }
 
 .motorbike {
@@ -74,13 +76,19 @@ body{
 	left: 700px;
 	bottom: 55px;
     width: 150px;
-    animation-delay: 12s;
-    animation: moverBackground duration timing-function delay iteration-count direction fill-mode;
+    /*animation-delay: 12s;*/
+    animation: moverBackground 0.5s linear backwards;
 }
 
 @keyframes moverBackground {
-    0%{
-        
+    0% {
+        transform: translateY(1000px) translateX(1000px);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(0) translateX(0);
+        opacity: 1;
+      }
     }
     
 }
