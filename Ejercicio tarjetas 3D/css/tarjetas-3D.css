@@ -10,12 +10,15 @@
 }
 
 .explorador.descubierto{
+  animation: flip-vertical-right 0.4s cubic-bezier(0.770, 0.000, 0.175, 1.000) both;
+
 }
 
 .explorador__imagen{
   position: absolute;
   height: 100%;
   width: 100%;
+
 }
 
 .explorador__contenido{
@@ -24,4 +27,16 @@
   width: 100%;
   height: 100%;
   background-color: rgb(250, 250, 250);
+}
+
+ 
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+      transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
 }
