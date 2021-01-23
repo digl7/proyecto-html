@@ -6,14 +6,13 @@
   transition: transform .5s;
   width: 500px;
   height: 500px;
-  cursor: pointer;
   perspective: 1000px;
+  cursor: pointer;
   transform-style: preserve-3d;
 }
 
 .explorador.descubierto{
-  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
-
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
 
 .explorador.descubierto .explorador__imagen{
