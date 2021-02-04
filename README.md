@@ -1,5 +1,6 @@
-
-![title](img/Logo.png)
+<p align="center">
+![Mi Logo](img/Logo.png)
+</p>
 
 
 # Proyecto Web Videoclub
