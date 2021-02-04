@@ -60,9 +60,14 @@ Descargas el proyecto o lo clonas, y abres index.html
   
 <h2> Autor ✒️ </h2>
   
-* **Diego García Losada** - *Todo el trabajo* - [digl7](https://github.com/digl7/)
+* **Diego García Losada** - [digl7](https://github.com/digl7/)
 
 </a>
 
+<a name="Copyright">
+  
+  <h2> Copyright y licencia </h2>
+  Copyright 2020-2021 del código y de la documentación de los autores. 
+</a>
 ---
 ⌨️ con ☕ por [digl7](https://github.com/digl7/) 😊
