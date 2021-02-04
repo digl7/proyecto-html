@@ -49,7 +49,7 @@ Descargas el proyecto o lo clonas, y abres index.html
 
 <a name="Construido">
   
-</h2> Construido con 🛠️ </h2>
+<h2> Construido con 🛠️ </h2>
 
 * [VisualStudio](https://visualstudio.microsoft.com/es/) - El IDE que he usado para crear este proyecto
 * [SourceTree](https://www.sourcetreeapp.com/) - Un cliente Git gratuito para Windows
@@ -58,7 +58,7 @@ Descargas el proyecto o lo clonas, y abres index.html
 
 <a name="Autor">
   
-</h2> Autor ✒️ </h2>
+<h2> Autor ✒️ </h2>
   
 * **Diego García Losada** - *Todo el trabajo* - [digl7](https://github.com/digl7/)
 
