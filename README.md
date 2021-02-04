@@ -14,7 +14,7 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 * 
 
 <a name="abcd">
-## Lenguajes usados
+  <h2> Lenguajes usados </h2>
 
 * HTML
 * CSS 
