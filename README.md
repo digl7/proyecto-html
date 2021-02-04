@@ -10,11 +10,11 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 ## Tabla de contenidos
 
 * [Lenguajes Usados](#LenguajesUsados)
-* [Comenzando](Comenzando)
-* [Pre-requisitos](Pre-requisitos)
-* [Instalación](Instalación)
-* [Construido](Construido)
-* [Autor](Autor)
+* [Comenzando](#Comenzando)
+* [Pre-requisitos](#Pre-requisitos)
+* [Instalación](#Instalación)
+* [Construido](#Construido)
+* [Autor](#Autor)
 
 <a name="LenguajesUsados">
   
