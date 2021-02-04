@@ -7,13 +7,15 @@
 # Proyecto Web Videoclub
 Esto es un proyecto web de html / css / javascript. Las páginas web son responsive.
 
-#Tabla de contenidos
-* [link text](#abcd)
-* 
-* 
-* 
+## Tabla de contenidos
+* [link text](#LenguajesUsados)
+* [link text](Comenzando)
+* [link text](Pre-requisitos)
+* [link text](Instalación)
+* [link text](Construido)
+* [link text](Autor)
 
-<a name="abcd">
+<a name="LenguajesUsados">
   <h2> Lenguajes usados </h2>
 
 * HTML
@@ -21,29 +23,35 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 * JS
 </a>
 
+<a name="Comenzando">
 ## Comenzando 🚀
 Sólo necesitas abrir el archivo index.html para verlo.
+</a>
 
+<a name="Pre-requisitos">
 ### Pre-requisitos 📋
+</a>
 
 ¡Solo necesitas un navegador web! 
 
+<a name="Instalación">
 ### Instalación 🔧
 
 Descargas el proyecto o lo clonas, y abres index.html
+</a>
 
+<a name="Construido">
 ## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [VisualStudio](https://visualstudio.microsoft.com/es/) - El IDE que he usado para crear este proyecto
 * [SourceTree](https://www.sourcetreeapp.com/) - Un cliente Git gratuito para Windows
+</a>
 
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
+<a name="Autor">
+## Autor ✒️
+  
 * **Diego García Losada** - *Todo el trabajo* - [digl7](https://github.com/digl7/)
+</a>
 
 ---
 ⌨️ con ❤️ por [digl7](https://github.com/digl7/) 😊
