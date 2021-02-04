@@ -65,4 +65,4 @@ Descargas el proyecto o lo clonas, y abres index.html
 </a>
 
 ---
-⌨️ con ❤️ por [digl7](https://github.com/digl7/) 😊
+⌨️ con ☕ por [digl7](https://github.com/digl7/) 😊
