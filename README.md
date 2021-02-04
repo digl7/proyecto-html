@@ -1,15 +1,10 @@
+# Proyecto Web Videoclub
+Esto es un proyecto web de html / css / javascript. Las páginas web son responsive.
 
-## Main Language
+## Lenguajes usados
 * HTML
 * CSS 
 * JS
-## ¿Qué necesitas para usarlo?
-
-## ¿Cómo funciona?
-Es una página web ¡sólo abrela!
-
-# Proyecto Web Videoclub
-Esto es un proyecto web de html / css / javascript. Las páginas web son responsive.
 
 ## Comenzando 🚀
 Sólo necesitas abrir el archivo index.html para verlo.
