@@ -4,3 +4,5 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 * HTML
 * CSS 
 * JS
+## ¿Qué necesitas para usarlo?
+¡Solo necesitas un navegador web!
