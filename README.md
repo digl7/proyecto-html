@@ -15,10 +15,11 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 
 <a name="abcd">
 ## Lenguajes usados
-</a>
+
 * HTML
 * CSS 
 * JS
+</a>
 
 ## Comenzando 🚀
 Sólo necesitas abrir el archivo index.html para verlo.
