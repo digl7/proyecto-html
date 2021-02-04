@@ -8,6 +8,7 @@
 Esto es un proyecto web de html / css / javascript. Las páginas web son responsive.
 
 ## Tabla de contenidos
+
 * [link text](#LenguajesUsados)
 * [link text](Comenzando)
 * [link text](Pre-requisitos)
@@ -16,41 +17,48 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 * [link text](Autor)
 
 <a name="LenguajesUsados">
+  
   <h2> Lenguajes usados </h2>
 
 * HTML
 * CSS 
 * JS
+
 </a>
 
 <a name="Comenzando">
-## Comenzando 🚀
+<h2>  Comenzando 🚀 </h2>
 Sólo necesitas abrir el archivo index.html para verlo.
 </a>
 
 <a name="Pre-requisitos">
-### Pre-requisitos 📋
+  
+<h2> Pre-requisitos 📋 </h2>
+
 </a>
 
 ¡Solo necesitas un navegador web! 
 
 <a name="Instalación">
-### Instalación 🔧
+<h2>Instalación 🔧 </h2>
 
 Descargas el proyecto o lo clonas, y abres index.html
+
 </a>
 
 <a name="Construido">
-## Construido con 🛠️
+</h2> Construido con 🛠️ </h2>
 
 * [VisualStudio](https://visualstudio.microsoft.com/es/) - El IDE que he usado para crear este proyecto
 * [SourceTree](https://www.sourcetreeapp.com/) - Un cliente Git gratuito para Windows
+
 </a>
 
 <a name="Autor">
-## Autor ✒️
+</h2> Autor ✒️ </h2>
   
 * **Diego García Losada** - *Todo el trabajo* - [digl7](https://github.com/digl7/)
+
 </a>
 
 ---
