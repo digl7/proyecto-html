@@ -40,6 +40,7 @@ Sólo necesitas abrir el archivo index.html para verlo.
 ¡Solo necesitas un navegador web! 
 
 <a name="Instalación">
+  
 <h2>Instalación 🔧 </h2>
 
 Descargas el proyecto o lo clonas, y abres index.html
@@ -47,6 +48,7 @@ Descargas el proyecto o lo clonas, y abres index.html
 </a>
 
 <a name="Construido">
+  
 </h2> Construido con 🛠️ </h2>
 
 * [VisualStudio](https://visualstudio.microsoft.com/es/) - El IDE que he usado para crear este proyecto
@@ -55,6 +57,7 @@ Descargas el proyecto o lo clonas, y abres index.html
 </a>
 
 <a name="Autor">
+  
 </h2> Autor ✒️ </h2>
   
 * **Diego García Losada** - *Todo el trabajo* - [digl7](https://github.com/digl7/)
