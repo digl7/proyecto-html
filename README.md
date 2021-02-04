@@ -1,3 +1,5 @@
+
+
 # Proyecto Web Videoclub
 Esto es un proyecto web de html / css / javascript. Las páginas web son responsive.
 
@@ -30,3 +32,6 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Diego García Losada** - *Todo el trabajo* - [digl7](https://github.com/digl7/)
+
+---
+⌨️ con ❤️ por [digl7](https://github.com/digl7/) 😊
