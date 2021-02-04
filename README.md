@@ -15,7 +15,7 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 * [Instalación](#Instalación)
 * [Construido](#Construido)
 * [Autor](#Autor)
-
+* [Copyright](#Copyright)
 <a name="LenguajesUsados">
   
   <h2> Lenguajes usados </h2>
@@ -68,6 +68,8 @@ Descargas el proyecto o lo clonas, y abres index.html
   
   <h2> Copyright y licencia </h2>
   Copyright 2020-2021 del código y de la documentación de los autores. 
+  
 </a>
+
 ---
 ⌨️ con ☕ por [digl7](https://github.com/digl7/) 😊
