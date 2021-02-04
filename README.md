@@ -1,6 +1,7 @@
 <p align="center">
-![Mi Logo](img/Logo.png)
+  <img src="img/Logo.png" />
 </p>
+
 
 
 # Proyecto Web Videoclub
@@ -28,7 +29,6 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [VisualStudio](https://visualstudio.microsoft.com/es/) - El IDE que he usado para crear este proyecto
 * [SourceTree](https://www.sourcetreeapp.com/) - Un cliente Git gratuito para Windows
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Autores ✒️
 
