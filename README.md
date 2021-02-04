@@ -9,12 +9,12 @@ Esto es un proyecto web de html / css / javascript. Las páginas web son respons
 
 ## Tabla de contenidos
 
-* [link text](#LenguajesUsados)
-* [link text](Comenzando)
-* [link text](Pre-requisitos)
-* [link text](Instalación)
-* [link text](Construido)
-* [link text](Autor)
+* [Lenguajes Usados](#LenguajesUsados)
+* [Comenzando](Comenzando)
+* [Pre-requisitos](Pre-requisitos)
+* [Instalación](Instalación)
+* [Construido](Construido)
+* [Autor](Autor)
 
 <a name="LenguajesUsados">
   
