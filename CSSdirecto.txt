@@ -1,7 +1,0 @@
-Es recomendable usar CSS en archivos externos: 
-1. Es organizado, si tienes varios html es más fácil la implementación de CSS
-
-2. Si usas el CSS de forma directa (por ejemplo <h1 style="color: red;">Mi H1 </h1>)
-   si tienes un atributo en el CSS externo generará conflicto y no funcionará el CSS directo.
-
-3. El código en linea (de forma directa) es poco legible.
